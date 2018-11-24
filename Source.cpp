@@ -14,7 +14,6 @@ double** matrix_initialization(int n)
 }
 void filling_the_matrix(int n, double **arr)
 {
-	srand(time(NULL));
 	cout << "Please, choose the left and the right limit of elements' value: " << endl;
 	cout << "The left limit is: ";
 	int left_limit;
@@ -116,6 +115,7 @@ void removing_the_matrix(int n, double **arr)
 }
 int main()
 {
+	srand(time(NULL));
 	int size;
 	cout << "Please, enter the size of the square matrix: ";
 	cin >> size;
