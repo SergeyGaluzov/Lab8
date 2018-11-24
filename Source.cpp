@@ -36,7 +36,7 @@ void output_the_started_matrix(int n, double **arr)
 	{
 		for (int j = 0; j < n; j++)
 		{
-			cout <<*(*(arr + i) + j) << " " ;
+			cout << *(*(arr + i) + j) << " " ;
 		}
 		cout << endl;
 	}
